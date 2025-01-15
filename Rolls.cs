@@ -10,10 +10,14 @@ namespace Mission2
     {
         public int[] Roll(int numRolls)
         {
+            // create an empty array that has numRolls number of spots to store the sum from each roll
             int[] rollTotals = new int[numRolls];
-
+          
+            // for every roll generate two random numbers 1-6 and find the total
+            // store this total to the rollTotals array and then return the array
             for (int roll = 0; roll < numRolls; roll++)
             {
+
                 int rollValue1 = 0;
                 int rollValue2 = 0;
 
